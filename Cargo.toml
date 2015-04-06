@@ -1,0 +1,15 @@
+[package]
+name = "liblrust"
+version = "0.0.1"
+authors = ["Daniel Goertzen <daniel.goertzen@gmail.com>"]
+
+
+[dependencies]
+
+libc = "0.1"
+
+
+[lib]
+name = "rustertest"
+#crate-type = ["dylib"]
+crate-type = ["staticlib"]
